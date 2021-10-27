@@ -277,9 +277,9 @@ body {
    }
 
    .topnav svg {
-       width: 10rem;
-       margin-left: 5rem;
+       width: 5rem;
        fill: #fff;
+       margin: .1rem 0 0 2rem;
    }
 
    .topnav {
@@ -302,10 +302,9 @@ body {
   }
   
   .topnav a.icon {
-  
     display: block;
     position: absolute;
-    right: 0;
+    right: 2rem;
     top: 0;
   }
   
@@ -321,23 +320,23 @@ body {
 
   .bar1, .bar2, .bar3 {
     width: 35px;
-    height: 5px;
+    height: 3px;
     background-color: #fff;
-    margin: 6px 0;
+    margin: 5px 0;
     transition: 0.4s;
     border-radius: 10px;
   }
   
   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 5px);
+    transform: rotate(-45deg) translate(-9px, 5px);
   }
   
   .change .bar2 {opacity: 0;}
   
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -5px);
   }
 
 }
